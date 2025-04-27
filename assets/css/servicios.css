@@ -1,0 +1,139 @@
+.servicios{
+    min-height: 80vh;
+    width: 100%;
+    padding: 50px 80px;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.servicios h2{
+    text-align: center;
+    font-family: "Poppins Light";
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.servicios hr{
+    width: 125px;
+    border: 1px solid var(--secondary-color);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;  
+    margin-bottom: 40px; 
+}
+
+.contenedor_servicios{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------------*/
+
+.servicio{
+    width: 20%;
+}
+
+.servicio img{
+    margin: 0 auto;
+    width: 33%;
+
+}
+
+.servicio h3{
+    text-align: center;
+    font-size: 19px;
+    font-family: "Poppins Bold";
+    margin-bottom: 20px;
+}
+
+.servicio p{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+
+/*------------------------  VECTORES  -------------------------------*/
+
+.circulo_crema_servicios--1{
+    width: 300px;
+    left: -175px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circulo_crema_servicios--2{
+    width: 300px;
+    right: -175px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- RESPONSIVE --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .servicios{
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .servicios h2{
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .servicios hr{
+        width: 95px;
+        border: 2px solid var(--secondary-color);
+        margin-bottom: 60px;
+    }
+    
+    .contenedor_servicios{
+        width: 95%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /*----------------*/
+    
+    .servicio{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    
+    .servicio img{
+        width: 25%;
+    }
+    
+    .servicio h3{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .servicio p{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    
+    
+    /*------------------------  VECTORES  -------------------------------*/
+    
+    .circulo_crema_servicios--1{
+        display: none;
+    }
+    
+    .circulo_crema_servicios--2{
+        display: none;
+    }
+
+}

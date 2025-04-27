@@ -1,0 +1,121 @@
+.testimonios{
+    min-height: 70vh;
+    width: 100%;
+    padding: 75px 120px;
+    padding-bottom: 100px;
+    background-color: var(--main-color);
+}
+
+/*-------------------------------------------------------*/
+
+.testimonios h2{
+    text-align: center;
+    font-family: "Poppins Light";
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.testimonios hr{
+    width: 100px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;  
+    margin-bottom: 10px; 
+}
+
+.testimonios .subtitulo_testimonios{
+    display: block;
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.contenedor_testimonios{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------------------------------------------------------*/
+
+.testimonio{
+    width: 28%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px 35px;
+    position: relative;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 16%);
+}
+
+.testimonio img{
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.testimonio p{
+    text-align: center;
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- RESPONSIVE --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .testimonios{
+        height: auto;
+        padding: 100px 25px;
+    }
+    
+    /*-------------------------------------------------------*/
+    
+    .testimonios h2{
+        font-size: 25px;
+    }
+    
+    .testimonios hr{
+        width: 80px;
+        border: 2px solid #333;
+        margin-bottom: 20px;
+    }
+    
+    .testimonios .subtitulo_testimonios{
+        font-size: 13px;
+        margin-bottom: 75px;
+    }
+    
+    .contenedor_testimonios{
+        width: 95%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /*-------------------------------------------------------*/
+    
+    .testimonio{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .testimonio img{
+        width: 40px;
+        top: -20px;
+        right: -20px;
+    }
+    
+    .testimonio p{
+        font-size: 12px;
+    }
+    
+
+}

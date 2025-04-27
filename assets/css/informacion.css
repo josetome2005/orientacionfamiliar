@@ -1,0 +1,149 @@
+.informacion{
+    min-height: 85vh;
+    width: 100%;
+    padding: 75px 120px;
+    position: relative;
+}
+
+.contenedor_informacion{
+    height: 100vh;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------------------------------------------------------*/
+
+.leftSection_informacion{
+    width: 40%;
+}
+
+.rightSection_información{
+    width: 58%;
+    padding-left: 5%;
+}
+
+/*-------------------------------------------------------*/
+
+.leftSection_informacion img{
+    width: 85px;
+    margin-bottom: 20px;
+}
+
+.leftSection_informacion h2{
+    font-family: "Poppins Bold";
+    font-size: 40px;
+    color: var(--tittle-color);
+    margin-bottom: 20px;
+}
+
+.leftSection_informacion hr{
+    width: 130px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 20px;
+}
+/*-------------------------------------------------------*/
+
+.firstParrafo_informacion{
+    font-family: "Poppins SemiBold";
+    font-size: 19px;
+    color: #222;
+    line-height: 1.7;
+    margin-bottom: 6px;
+}
+
+.rightSection_información p{
+    font-size: 19px;
+    color: #222;
+    line-height: 1.7;
+    margin-bottom: 6px;
+}
+
+
+/*------------------------  VECTORES  -------------------------------*/
+
+.franja_izquierda_informacion{
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.franja_derecha_informacion{
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- RESPONSIVE --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .informacion{
+        height: auto;
+        padding: 75px 20px;
+    }
+    
+    .contenedor_informacion{
+        height: auto;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    
+    /*-------------------------------------------------------*/
+    
+    .leftSection_informacion{
+        width: 90%;
+    }
+    
+    .rightSection_información{
+        width: 90%;
+        padding-left: 0;
+    }
+    
+    /*-------------------------------------------------------*/
+    
+    .leftSection_informacion img{
+        width: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .leftSection_informacion h2{
+        font-size: 33px;
+    }
+    
+    .leftSection_informacion hr{
+        border: 2px solid #222;
+    }
+    /*-------------------------------------------------------*/
+    
+    .firstParrafo_informacion{
+        font-size: 17px;
+    }
+    
+    .rightSection_información p{
+        font-size: 16px;
+        color: #222;
+        line-height: 1.7;
+        margin-bottom: 6px;
+    }
+    
+    
+    /*------------------------  VECTORES  -------------------------------*/
+    
+    .franja_izquierda_informacion{
+        left: -100px;
+    }
+    
+    .franja_derecha_informacion{
+        right: -60px;
+    }
+    
+
+
+
+}

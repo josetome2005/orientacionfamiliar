@@ -1,0 +1,183 @@
+.portada{
+    height: 100vh;
+    width: 100%;
+    padding: 50px 140px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/*------------------------------------------------------*/
+
+.contenido_portada{
+    width: 50%;
+}
+
+.imagen_portada{
+    width: 48%;
+    border-radius: 50px;
+    margin-left: 5%;
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------------------------*/
+
+.contenido_portada h1{
+    font-family: "Poppins ExtraLight";
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #333;
+}
+
+.contenido_portada hr{
+    width: 50px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 45px;
+}
+
+.contenido_portada h2{
+    font-family: "Poppins Light";
+    font-size: 32px;
+    color: var(--tittle-color);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.contenido_portada h2 span{
+    font-family: "Poppins Bold";
+}
+
+.contenido_portada p{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.span_agendar_cta_portada{
+    display: block;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.boton_agendar_cta_portada{
+    display: inline-block;
+    background-color: var(--secondary-color);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-family: "Poppins Light";
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease;
+}
+
+.boton_agendar_cta_portada:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+/*------------------------  VECTORES  -------------------------------*/
+
+.circulo_crema_portada{
+    width: 300px;
+    top: -140px;
+    left: -140px;
+}
+
+.circulo_celeste_portada{
+    width: 310px;
+    bottom: -175px;
+    left: -120px;
+}
+
+.franja_celeste_portada{
+    max-height: 100vh;
+    top: 0;
+    right: 0;
+}
+
+.franja_crema_portada{
+    max-height: 100vh;
+    bottom: 0;
+    right: -75px;
+}
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- RESPONSIVE --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+    .portada{
+        min-height: 100vh;
+        height: auto;
+        width: 100%;
+        padding: 100px 25px;
+        flex-wrap: wrap;
+    }
+    
+    /*------------------------------------------------------*/
+    
+    .contenido_portada{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .imagen_portada{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    /*------------------------------------------------------*/
+        
+    .contenido_portada hr{
+        width: 75px;
+        border: 2px solid var(--secondary-color);
+        margin-bottom: 25px;
+    }
+    
+    .contenido_portada h2{
+        font-size: 25px;
+    }
+    
+    
+    .contenido_portada p{
+        font-size: 14px;
+    }
+    
+    .span_agendar_cta_portada{
+        margin-bottom: 25px;
+        font-size: 13px;
+        font-family: "Poppins SemiBold";
+    }
+    
+    .boton_agendar_cta_portada{
+        padding: 8px 15px;;
+        font-size: 12px;
+    }
+        
+    /*------------------------  VECTORES  -------------------------------*/
+    
+    .circulo_crema_portada{
+        top: -200px;
+    }
+
+    .circulo_celeste_portada{
+        width: 250px;
+        bottom: -135px;
+        left: -120px;
+    }
+    
+    .franja_celeste_portada{
+        display: none;
+    }
+    
+    .franja_crema_portada{
+        display: none;
+    }
+}

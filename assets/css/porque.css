@@ -1,0 +1,132 @@
+.porque{
+    min-height: 90vh;
+    width: 100%;
+    padding: 50px 140px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/*------------------------------------------------------*/
+
+.contenedor_porque_img{
+    width: 28%;
+    height: 400px;
+    border-top-right-radius: 125px;
+    border-top-left-radius: 125px;
+    background-image: url("../img/imagen_porque.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.contenido_porque{
+    width: 50%;
+    margin-left: 100px;
+}
+
+/*------------------------------------------------------*/
+
+.contenido_porque h2{
+    width: 80%;
+    font-family: "Poppins Light";
+    font-size: 27px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contenido_porque hr{
+    width: 75px;
+    border: 1px solid var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.contenido_porque p{
+    font-family: "Poppins Light";
+    font-size: 15px;
+    color: #222;
+    line-height: 1.4;
+    text-align: justify;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+
+
+/*------------------------  VECTORES  -------------------------------*/
+
+.franja_celeste_porque{
+    top: 0;
+    left: 0;
+}
+
+.franja_crema_porque{
+    top: 0;
+    right: 0;
+}
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- RESPONSIVE --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .porque{
+        min-height: 90vh;
+        height: auto;
+        padding: 50px 25px;
+        flex-wrap: wrap;
+    }
+    
+    /*------------------------------------------------------*/
+    
+    .contenedor_porque_img{
+        display: block;
+        width: 60%;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 75px;
+    }
+    
+    .contenido_porque{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /*------------------------------------------------------*/
+    
+    .contenido_porque h2{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .contenido_porque hr{
+        margin: 0 auto;
+        width: 75px;
+        border: 1px solid #222;
+        margin-bottom: 20px;
+    }
+    
+    .contenido_porque p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    
+    /*------------------------  VECTORES  -------------------------------*/
+    
+    .franja_celeste_porque{
+        top: 0;
+        left: -175px;
+        height: 100%;
+    }
+    
+    .franja_crema_porque{
+        top: 0;
+        right: -50px;
+        height: 100%;
+    }
+
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    -webkit-font-smoothing: antialiased; /* Mejora en Chrome y Safari */
+    -moz-osx-font-smoothing: grayscale;  /* Mejora en Firefox */
+    text-rendering: optimizeLegibility;  /* Mejor uso de ligaduras y formas de letra */
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+ul	{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+:root{
+    --main-color: #FFF3E6;
+    --secondary-color: #D2F1FF;
+    --tittle-color: #8CDBFF;
+}
+
+.vector{
+    position: absolute;
+    z-index: -1;
+}
+
+/*---------------------- FONTS ----------------------*/
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Light';
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins ExtraLight';
+    src: url('../fonts/Poppins-ExtraLight.ttf');
+}
+
+
+@font-face{
+    font-family: 'Poppins SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
