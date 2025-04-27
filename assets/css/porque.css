@@ -4,7 +4,9 @@
     padding: 50px 140px;
     display: flex;
     align-items: center;
+    max-width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 /*------------------------------------------------------*/

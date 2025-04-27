@@ -2,7 +2,9 @@
     min-height: 85vh;
     width: 100%;
     padding: 75px 120px;
+    max-width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .contenedor_informacion{
